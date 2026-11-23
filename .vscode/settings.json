@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "moviebig",
+            "database": "data/moviebig.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "world",
+            "database": "data/world.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "crash",
+            "database": "data/crash.db"
+        }
+    ]
+}
