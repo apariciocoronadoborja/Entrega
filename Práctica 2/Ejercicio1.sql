@@ -1,7 +1,6 @@
-SELECT
-    title AS nombre,
-    revenue AS beneficios,
-    budget AS presupuesto
-FROM movies
-WHERE status = 'Released'
-  AND revenue <= budget;
+SELECT 
+    id AS movie_id, 
+    title AS name, 
+    budget 
+FROM movies 
+WHERE budget > 14000000;

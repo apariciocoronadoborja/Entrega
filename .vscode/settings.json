@@ -17,6 +17,12 @@
             "driver": "SQLite",
             "name": "crash",
             "database": "data/crash.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "paraizoo",
+            "database": "data/paraizoo.db"
         }
     ]
 }
